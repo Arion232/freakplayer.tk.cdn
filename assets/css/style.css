@@ -1,0 +1,285 @@
+/* --------------------------------------
+        This is a movie site font page.\
+        Author:
+        Site url:"https://moviefreak.xyz/"
+        Designed bY: Antor
+        
+        -----------------
+        About css design
+        ----------------
+        main color-#5AFF16,#FF1616;
+
+
+        -------------
+        for bug fixing
+        ------------
+         go to ------
+
+        // Common css
+        // NavBar style start
+        // Nav bar mobile Toggle icon css start 
+        // Hero_area style start
+        // get In tuch/contact  start
+        // copyright area start 
+        // @media/ Mobile Responsive CSS Start 
+        ---------------------------------------------
+ */
+
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #2C3540;
+}
+/*Common css*/
+
+.btn_all{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold !important;
+    padding: 12px 20px;
+    background-color: #5AFF16;
+    color: #fff;
+    text-align: center;
+    font-weight: 400;
+    text-transform: uppercase;
+    transition: all .3s;
+    border-radius: none !important;
+    border:none !important;
+    outline: none !important;  
+    transition: all .5s; 
+    border-radius: 2px;
+
+    
+    
+}
+
+.btn_all:hover{
+    background-color: #FF1616;
+    color:#000;
+    cursor: pointer !important;
+    
+}
+/* NavBar style start*/
+
+.navbar-brand{
+    transition: ease .5s ;
+}
+.navbar-brand:hover{
+    padding: 10px;
+}
+.navbar {
+    background-color: #424a5452;
+    font-weight: bold;
+    transition: all .5s;
+
+}
+.nav-link:hover{
+    background-color: #5AFF16;
+    border-radius: 2px;
+    color:#000 !important; 
+    transition:ease .5s;
+}
+
+.navbar-brand {
+    font-style: normal;
+    color: #ed563b;
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+.navbar-nav{
+    padding: 0.75rem;
+} 
+
+/* Nav bar mobile Toggle icon css start */
+.navbar-toggler{
+    border: 0;
+}
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus{
+    outline: none;
+    box-shadow: none;
+    border:0;
+}
+
+.toggler-icon{
+    width: 30px;
+    height: 3px;
+    background-color: #f77777;
+    display: block;
+    transition: all 0.2s;
+}
+
+.middle-bar{
+    margin: 5px auto;
+}
+
+.navbar-toggler .top-bar{
+    transform: rotate(45deg);
+    transform-origin: 10% 10%;
+
+}
+
+.navbar-toggler .middle-bar{
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+.navbar-toggler .bottom-bar{
+    transform: rotate(-45deg);
+    transform-origin: 10% 90%;
+
+}
+
+.navbar-toggler.collapsed .top-bar{
+    transform: rotate(0);
+
+}
+.navbar-toggler.collapsed .middle-bar{
+    opacity: 1;
+    filter: alpha(opacity=100);
+
+}
+
+.navbar-toggler.collapsed .bottom-bar{
+    transform: rotate(0);
+
+}
+.navbar-toggler.collapsed .toggler-icon{
+    background-color: #ffffffc2;
+}
+
+
+/* Nav bar mobile Toggle icon css end */
+
+
+
+
+/* NavBar style end*/
+
+
+/* Hero_area style start*/
+.hero_area {
+    display: grid;
+    place-items: center;
+    margin-top: 100px;
+    margin-bottom: 10rem;
+    
+}
+
+
+.caption_text {
+    text-align: center;
+}
+
+.caption_text h1 {
+    margin-top: 30px;
+    margin-bottom: 25px;
+    font-size: 84px;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #FF1616;
+    letter-spacing: 1px;
+}
+
+.caption_text h6 {
+    margin-top: 0;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #fff;
+    letter-spacing: .5px;
+}
+
+/* Hero_area style end*/
+
+
+/* get In tuch/contact  start*/
+
+
+.get_in_tuch{
+    background-color:#4F5760 ;
+    height: 450px;
+   
+}
+
+.get_in_tuch .link_text{
+    text-align: center;
+    padding-top:8rem ;
+    padding-bottom: 50px;
+}
+
+   
+   
+
+
+.get_in_tuch .link_text h2{
+    color: #FF1616;
+    text-transform: uppercase;
+    font-size: 2.3rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    
+
+}
+
+.get_in_tuch .link_text p{
+    color: #fff;
+}
+
+/* get In tuch/contact  start*/
+
+
+
+/* copyright area start */
+.copy_right_text{
+    background:#fcfcfc;
+    font-size: 18px;
+    width: 100%;
+    height: 2rem;
+   text-align: center;
+   padding-top:  5px;
+}
+
+.copy_right_text a{
+    text-decoration: none;
+    color:#5AFF16;
+    transition: all .5s;
+    
+}    
+.copy_right_text a:hover{
+    color:#FF1616;
+    
+}
+/* copyright area end */
+
+/*@media/ Mobile Responsive CSS Start */
+@media screen and (max-width: 992px){
+.navbar{
+background-color:#424a54d0;
+
+}
+.navbar-brand:hover{
+    padding: none;
+}
+  
+
+.nav-link:hover{
+    background: none !important;
+    color:#FF1616 !important;
+    border-bottom: #5AFF16 !important;
+    width:100% !important;  
+}
+}
+
+/* Mobile Responsive CSS End */
